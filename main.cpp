@@ -7,8 +7,8 @@ using namespace std;
 /* Implementing merge sort */
 void merge(int arr[], int l, int m, int r) {
 	int i, j, k;
-	int n1 = m - l +  1;
-	int n2 = r-m;
+	int n1 = m - l + 1;
+	int n2 = r - m;
 
 	/* create temp arrays */
 	int L[n1], R[n2];
@@ -110,6 +110,7 @@ void find_all(int A[], int size, int sum) {
 }
 
 /* Driver program to test above functions */
+// To do  - Take the input from the user and write output to a file
 int main() {
 	int A[] = { 10, 9, 8, 6, 7, 4, 3, 5, 2, 1 };
 	int arr_size = sizeof(A) / sizeof(A[0]);
